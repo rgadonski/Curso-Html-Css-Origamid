@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #111;
+  text-align: center;
+}
+div {
+  padding: 30px;
+  background-color: #111;
+  margin: 3%;
+  border-radius: 4px;
+  color: #b2b2b2;
+}
+
+h2 {
+  display: inline-block;
+  font-weight: bolder;
+}
+
+.amarelo {
+  color: #febe01;
+}
