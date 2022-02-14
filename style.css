@@ -1,5 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
 }
 h1 {
   color: #111;
@@ -16,8 +17,31 @@ div {
 h2 {
   display: inline-block;
   font-weight: bolder;
+  color: white;
+  font-size: 24px;
 }
 
 .amarelo {
   color: #febe01;
+  display: inline-block;
+}
+.h2 {
+  font-weight: bolder;
+  font-size: 24px;
+  margin: 0px;
+}
+.botaoComprar {
+  background-color: #febe01;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #332200;
+  display: inline-block;
+}
+
+.botaoComprar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #111;
+  display: inline-block;
 }
