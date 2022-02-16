@@ -45,3 +45,14 @@ h2 {
   color: #111;
   display: inline-block;
 }
+
+.img-container {
+  width: 50%;
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
