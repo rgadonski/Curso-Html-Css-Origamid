@@ -10,9 +10,9 @@ h2 {
 .item {
   background: #f7f7f7;
   border: 1px solid #e7e7e7;
-  margin-bottom: 20px;
   padding: 20px;
   border-radius: 4px;
+  display: grid;
 }
 .comprar {
   background: #a8f;
@@ -20,4 +20,9 @@ h2 {
   padding: 10px 20px;
   border-radius: 4px;
   text-decoration: none;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
