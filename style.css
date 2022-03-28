@@ -2,7 +2,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
-  margin: 0;
+  margin: 0px;
   display: grid;
   gap: 60px;
   justify-items: center;
@@ -46,6 +46,14 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr;
   max-width: 1000px;
+}
+.subtitulo {
+  font-size: 64px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+  text-align: right;
+  padding: 40px;
+  align-self: center;
 }
 
 .content-item-1 {
@@ -97,7 +105,7 @@ p {
 .vantagens-item p {
   grid-column: 2;
 }
-footer {
+.rodape {
   background: #fff;
   width: 100%;
   text-align: center;
