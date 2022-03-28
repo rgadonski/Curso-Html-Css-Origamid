@@ -11,6 +11,10 @@ img {
   max-width: 100%;
   display: block;
 }
+.logo {
+  margin-top: 20px;
+}
+
 a {
   text-decoration: none;
 }
