@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header>
     <img class="logo" src="/img/bikcraft.svg" alt="Logo Bikcraft" />
-    <nav class="menu">
+    <nav class="menu" aria-label="menu principal">
       <a class="item-menu" href="/">SOBRE</a>
       <a class="item-menu" href="/">PRODUTOS</a>
       <a class="item-menu" href="/">LOJAS</a>
       <a class="item-menu" href="/">CONTATO</a>
     </nav>
-
-    <div class="content">
-      <div class="content-item-1">
-        <h1>Bicicletas Feitas a Mão</h1>
+  </header>
+    <main>
+      <article class="content">
+      <div class="content-item-1" aria-labelledby="label-Bicicletas-feitas-a-mao">
+        <h1 id="label-Bicicletas-feitas-a-mao">Bicicletas Feitas a Mão</h1>
         <p>
           A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela
           vem equipada com melhores acessórios da marca.
@@ -27,9 +29,10 @@
       </div>
 
       <img src="/img/bicicleta.jpg" alt="Bicicleta Starcraft" />
+     </article>
 
-      <h2 class="subtitulo">VANTAGENS BIKCRAFT</h2>
-
+      <article class="content" aria-labelledby="label-vantagens">
+      <h2 class="subtitulo" id="label-vantagens">VANTAGENS BIKCRAFT</h2>
       <div class="vantagens">
         <div class="vantagens-item">
           <img src="/img/eletrica.svg" alt="" />
@@ -47,7 +50,9 @@
           <p>Rastreador e sistema anti-furto para garantir o seu sossego.</p>
         </div>
       </div>
-    </div>
+      </article>
+    </main>
+    
     <footer class="rodape">
       <p>Bikcraft. Alguns Direitos Reservados.</p>
     </footer>
