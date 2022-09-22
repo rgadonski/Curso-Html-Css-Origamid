@@ -1,7 +1,14 @@
 /*Estilos gerais*/
+:root {
+  --cor-primaria: #f7f7f7;
+  background-color: var(--cor-primaria);
+}
+
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f7f7f7;
+ 
   margin: 0px;
   display: grid;
   gap: 60px;
